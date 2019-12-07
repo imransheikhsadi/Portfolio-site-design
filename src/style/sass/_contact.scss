@@ -1,0 +1,37 @@
+.contact_container{
+    width: 90%;
+    margin: 12rem auto 0 auto ;
+    @media screen and(min-width: 1400px){
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    
+    .contact_form{
+        padding: 3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        background-color: var(--box_bg_clr);
+        column-gap: 3rem;
+        row-gap: 4rem;
+
+
+        .contact_form__description{
+            grid-column: 1/-1;
+        }
+
+        .input_field{
+            background-color: transparent;
+            padding: 1rem;
+            border: none;
+            color: wheat;
+            border-bottom: 1px solid rgb(77, 77, 77);
+            transition: all .5s;
+
+
+            &:focus{
+                border-bottom: 1px solid var(--theme-color);
+            }
+        }
+    }
+}

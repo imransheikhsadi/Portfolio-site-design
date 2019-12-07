@@ -1,0 +1,93 @@
+//Slider indipendent classes
+.hidden_content{
+    top: 0;
+    left: 100%;
+    visibility: hidden;
+    display: none;
+}
+.visible_content{
+    visibility: visible;
+}
+
+//scroll bar indipendent classes
+
+.simplebar-scrollbar{
+    background: blueviolet;
+}
+
+.hover{
+    background: brown;
+}
+
+//Blur class
+.blur{
+    filter: blur(3px);
+    transition: 300ms;
+    // transform: scale(1.1);
+}
+
+//Slide animations
+.slide{
+    animation: slider 400ms ease-out;
+}
+.slide-back{
+    animation: slider-back 300ms ease-in;
+}
+
+
+//margin
+.mt-70{
+    margin-top: 7rem;
+}
+.mt-100{
+    margin-top: 10rem;
+}
+.mt-40{
+    margin-top: 4rem;
+}
+
+//line through
+.line_through{
+    text-decoration: line-through;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+    color: rgb(197, 197, 197);
+}
+
+//center
+.center{
+    text-align: center;
+    // margin: 0 auto;
+    margin-left: 43%;
+}
+
+//hamBarger
+@media screen and(max-width: 600px) {
+    .media_nav {
+      width: 30px;
+      height: 20px;
+      background-color: rgba(247, 245, 245, 0.164);
+      border-radius: 3px;
+      position: absolute;
+      left: 0;
+      top: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      box-sizing: content-box;
+      transition: left .3s;
+
+      span {
+        border-radius: 5px;
+        display: block;
+        width: 90%;
+        height: 2px;
+        border-radius: 3px;
+        //   margin: 2px;
+        background-color: rgb(228, 228, 228);
+      }
+        z-index: 45;
+    }
+}

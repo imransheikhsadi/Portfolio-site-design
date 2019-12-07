@@ -1,0 +1,101 @@
+.section_slide{
+    
+    .contents{
+       
+
+        section{
+            position: absolute;
+            top: 0;
+            left: 15rem;
+            width: calc(100% - 15rem) ;
+            height: 100vh;
+            background-color: var(--slide_bg_color);
+            background-attachment: fixed;
+            @media (max-width:600px){
+                left: 0;
+                width: 100%;
+            }
+            
+        }
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .bg_blur-container{
+//     position: absolute;
+//     top: 0;
+//     left: 10%;
+//     height: 100%;
+//     width: 90%;
+//     background: inherit;
+//     overflow: hidden;
+//     background-size: cover;
+//     display: none;
+
+//     .bg_blur{
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         height: 100%;
+//         width: 100vw;
+//         transform: translate(-10%,0);
+//         background: inherit;
+//         filter: blur(3px);
+//     }
+// }

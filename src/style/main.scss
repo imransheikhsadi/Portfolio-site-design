@@ -1,0 +1,21 @@
+// Required Core Stylesheet
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+// Optional Theme Stylesheet
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+
+
+@import "sass/base";
+@import "sass/side-bar";
+@import "sass/home";
+@import "sass/about";
+@import "sass/resume";
+@import "sass/contact";
+@import "sass/portfolio";
+@import "sass/card";
+@import "sass/blog";
+@import "sass/animation";
+@import "sass/slider";
+@import "sass/buttons";
+@import "sass/indipendentClass";
+@import "sass/OverlayScrollbars";
